@@ -11,9 +11,11 @@ const Landing: React.FC =  () => {
       
       <Button title="Small Radius" size="medium" shape="rounded-sm" styles="extra-classes" />
       <Button title="Medium Radius" size="medium" shape="rounded-md" styles="extra-classes" />
+      <Button title="Large Radius" size="medium" shape="rounded-lg" styles="extra-classes" />
       <Button title="Full Radius" size="medium" shape="rounded-full" styles="extra-classes" />
     </div>
   )
 }
 
 export default Landing;
+
