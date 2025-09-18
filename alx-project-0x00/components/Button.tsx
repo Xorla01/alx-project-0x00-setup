@@ -3,7 +3,7 @@ import { ButtonProps } from "@/interfaces";
 
 const Button: React.FC<ButtonProps> = ({
   title = "Default Button", 
-  style = "",               
+  styles = "",               
   size = "medium",         
   shape = "rounded-md"      
 }) => {
@@ -15,7 +15,7 @@ const Button: React.FC<ButtonProps> = ({
 
   return (
     <button
-      className={`bg-blue-500 text-white hover:bg-blue-600 ${sizeClasses[size]} ${shape} ${style}`}
+      className={`bg-blue-500 text-white hover:bg-blue-600 ${sizeClasses[size]} ${shape} ${styles}`}
     >
       {title}
     </button>
@@ -23,3 +23,4 @@ const Button: React.FC<ButtonProps> = ({
 };
 
 export default Button;
+
